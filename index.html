@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="div_contador" id="div_contador">
+            <div id="contador">5</div>
+        </div>
+        <div class="left">
+            <div class="up">
+
+                <div class="marcador">
+                    <div class="div_marcador1">
+                        <div id="player1Name">Player 1</div>
+                        <div id="marcador1"></div>
+                    </div>
+                    <div class="marcador_">:</div>
+                    <div class="div_marcador2">
+                        <div id="player2Name">Player 2</div>
+                        <div id="marcador2"></div>
+                    </div>
+
+                </div>
+                <div class="controls">
+                    <div class="controls_left">
+                        <img src="img\w.jpg" alt="" style="height: 27px; width: 27px; padding-left: 1px;">
+                        <img src="img\asd.jpg" alt="" style="height: 25px; width: 75px;">
+                    </div>
+                    <div class="space">
+
+                    </div>
+                    <div class="controls_right">
+                        <img src="img\arrowsu.jpg" alt="" style="height: 27px; width: 27px; padding-left: 1px;">
+                        <img src="img\arrowsd.jpg" alt="" style="height: 25px; width: 75px;">
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="div_choose"> <button class="choosePlayers" id="choosePlayers">Change players
+                        names</button>
+
+                </div>
+                <div class="settings" id="settings">
+                    <form>
+                        <div>
+                            <label class="namePlayer" for="fname">Player
+                                1:</label>
+                            <input type="text" id="fname" name="fname" value="" placeholder="Enter name...">
+                        </div>
+                        <div>
+                            <label class="namePlayer" for="lname">Player 2:</label>
+                            <input type="text" id="lname" name="lname" value="" placeholder="Enter name...">
+                        </div>
+                    </form>
+                    <div class="guardar"><button id="guardar" class="button">Save</button></div>
+                </div>
+                <div class="div_reset"><button class="reset" id="start">Start</button>
+                    <!-- <i class="fas fa-undo"></i> -->
+
+
+                </div>
+                <div class="div_reset"><button class="reset" id="reset">Reset</button>
+
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="app.js"></script>
